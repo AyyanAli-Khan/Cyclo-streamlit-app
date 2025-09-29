@@ -1,0 +1,8 @@
+pandas 
+openpyxl
+numpy
+ipykernel
+matplotlib
+ortools
+streamlit
+plotly
