@@ -35,7 +35,7 @@ st.markdown("""
     }
     .hero-title { font-size: 1.8rem; font-weight:700; margin:0; }
     .hero-sub { margin:0.25rem 0 0 0; opacity:0.95; }
-    .upload-card { background: white; padding: 2rem; border-radius: 12px; border: 2px solid #e8f5e9; box-shadow: 0 4px 6px rgba(0,0,0,0.07); text-align:center; transition: all 0.3s ease; }
+    .upload-card { padding: 2rem; border-radius: 12px; border: 2px solid #e8f5e9; box-shadow: 0 4px 6px rgba(0,0,0,0.07); text-align:center; transition: all 0.3s ease; }
     .upload-card:hover { border-color: #63913A; box-shadow: 0 8px 20px rgba(99,145,58,0.2); }
 
         /* Buttons */
@@ -58,7 +58,7 @@ st.markdown("""
     
 
     .metric-container { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; margin: 1.5rem 0; }
-    .metric-card { background: white; padding: 1.2rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 5px solid #63913A; }
+    .metric-card {  padding: 1.2rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 5px solid #63913A; }
     .metric-label { font-size: 0.85rem; color:#666; text-transform: uppercase; margin-bottom:0.4rem; font-weight:600; }
     .metric-value { font-size:1.6rem; font-weight:700; color:#63913A; }
 
@@ -735,7 +735,7 @@ if customer_file:
 
             with col2:
                 st.markdown("""
-                <div style="background:white;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+                <div style="padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
                     <h3 style="color:#63913A;margin-top:0">Complete Production Plan Package</h3>
                     <p>Download includes all sheets: Production Schedule, Batch Summary, Line Utilization, Color Changeover, Color Distribution, and Exceptions (if any).</p>
                 </div>
@@ -788,7 +788,7 @@ else:
 
     with col1:
         st.markdown("""
-        <div style="background:white;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+        <div style="padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
             <h3 style="color:#63913A;margin-top:0">🎯 Key Features</h3>
             <ul>
                 <li><strong>Smart Color Sequencing:</strong> Groups similar colors to minimize line changes</li>
@@ -802,7 +802,7 @@ else:
 
     with col2:
         st.markdown("""
-        <div style="background:white;padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
+        <div style="padding:1rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.06)">
             <h3 style="color:#63913A;margin-top:0">📋 File Requirements</h3>
             <p><strong>Customer Order File (Sheet1) must contain:</strong></p>
             <ul>
