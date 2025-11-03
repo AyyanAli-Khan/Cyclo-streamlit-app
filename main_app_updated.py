@@ -194,6 +194,7 @@ BLEND_MAPPING = {
     "50% Recycled Polyester 35% CYCLO® Recycled Cotton 15% Post Consumer (65% Cotton 35% Polyester)":"35/50/15 CYL Cot/ploy/PCW Cot/poly",  
     "50% CYCLO® Recycled Cotton 50% Organic Cotton":"50/50 Org/Cyl Cot",
     "50% Organic Cotton 50% CYCLO® Recycled Cotton":"50/50 Org/Cyl Cot",
+    "60% CYCLO® Recycled Cotton 20% Viscose 20% Nylon":"60/20/20 CYL Cot/Viscose/Nylon",
 }
 
 
