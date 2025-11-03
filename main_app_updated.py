@@ -192,6 +192,8 @@ BLEND_MAPPING = {
     "65% Recycled Polyester 35% CYCLO® Recycled Cotton":"35/65 CYL Cot/poly",
     "35% CYCLO® Recycled Cotton 65% Recycled Polyester":"35/65 CYL Cot/poly",
     "50% Recycled Polyester 35% CYCLO® Recycled Cotton 15% Post Consumer (65% Cotton 35% Polyester)":"35/50/15 CYL Cot/ploy/PCW Cot/poly",  
+    "50% CYCLO® Recycled Cotton 50% Organic Cotton":"50/50 Org/Cyl Cot",
+    "50% Organic Cotton 50% CYCLO® Recycled Cotton":"50/50 Org/Cyl Cot",
 }
 
 
@@ -204,7 +206,8 @@ NEAREST_FAMILIES = {
     "Beige": ["Stone", "Cream", "Natural"],
     "White": ["Cream", "Grey"],
     "Yellow": ["Dijon", "Cream"],
-    "Stone": ["Beige", "Natural", "Grey"],
+    "Stone": ["Beige", "Natural", "Grey", "Anthracite" ],
+    "Anthracite" : ["Stone", "Grey"],
     "Midnight Olive": ["Green", "Brown"],
     "Golden Mocha": ["Brown", "Chocolate"],
     "Charcoal": ["Grey", "Black"],
