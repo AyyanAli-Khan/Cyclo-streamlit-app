@@ -235,7 +235,8 @@ SHIFTS = [("A", 0, 480), ("B", 480, 960), ("C", 960, 1440)]
 SHIFT_DURATION_MIN = 480
 PER_SHIFT_CAPACITY = CAPACITY_PER_LINE_PER_DAY / len(SHIFTS)
 HORIZON_DAYS = 60
-MACHINE_FILE_PATH = "./reports/machine.xlsx"
+# MACHINE_FILE_PATH = "./reports/machine.xlsx"
+MACHINE_FILE_PATH = "./reports/updated_machine_data.xlsx"
 
 # ========================================
 # HELPER FUNCTIONS
