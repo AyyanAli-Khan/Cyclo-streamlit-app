@@ -199,6 +199,8 @@ BLEND_MAPPING = {
     "60% CYCLO® Recycled Cotton 20% Viscose 20% Nylon":"60/20/20 CYL Cot/Viscose/Nylon",
     "100% CYCLO® Recycled Cotton":"100 CYL Cot",
     "50% CYCLO® Recycled Cotton 25% Recycled Polyester 25% Viscose":"50/25/25 CYL Cot/poly/Viscose",
+    "50% BCI Cotton 50% Recycled Polyester":"50/50 BCI Cot/poly",
+    "50% Recycled Polyester 50% BCI Cotton":"50/50 BCI Cot/poly",
 }
 
 NEAREST_FAMILIES = {
