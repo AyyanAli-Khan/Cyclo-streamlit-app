@@ -80,15 +80,19 @@ BLEND_MAPPING = {
     "30% Polyester 70% CYCLO® Recycled Cotton": "70/30 CYL Cot/poly",
     "70% CYCLO® Recycled Cotton 30% Recycled Polyester 0.001% Tracer Fibers": "70/30 CYL Cot/poly",
     "80% CYCLO® Recycled Cotton 20% Recycled Polyester": "80/20 CYL Cot/poly",
+    "80% CYCLO® Recycled Cotton 20% Polyester": "80/20 CYL Cot/poly",
     "90% CYCLO® Recycled Cotton 10% Recycled Polyester": "90/10 CYL Cot/poly",
     "90% CYCLO® Recycled Cotton 10% Polyesterr": "90/10 CYL Cot/poly",
     "60% CYCLO® Recycled Cotton 40% Recycled Polyester": "60/40 CYL Cot/poly",
     "60% CYCLO® Recycled Cotton 40% Polyester": "60/40 CYL Cot/poly",
     "50% CYCLO® Recycled Cotton 50% Recycled Polyester": "50/50 CYL Cot/poly",
+    "50% CYCLO® Recycled Cotton 50% Polyester": "50/50 CYL Cot/poly",
     "80% CYCLO® Recycled Cotton 20% Recycled Polyester 0.001% Tracer Fibers": "80/20 CYL Cot/poly Fiber tracer 0.001%",
+    "80% CYCLO® Recycled Cotton 20% Polyester 0.001% Tracer Fibers": "80/20 CYL Cot/poly Fiber tracer 0.001%",
     "70% CYCLO® Recycled Cotton 30% Recycled Polyester 0.001% Tracer Fibers": "70/30 CYL Cot/poly Fiber tracer 0.001%",
     "50% CYCLO® Recycled Cotton 30% Recycled Polyester 20% Nylon": "50/30/20 CYL Cot/poly/nylon",
     "50% CYCLO® Recycled Cotton 50% Recycled Polyester 0.001% Tracer Fibers": "50/50 CYL Cot/poly Fiber tracer 0.001%",
+    "50% CYCLO® Recycled Cotton 50% Polyester 0.001% Tracer Fibers": "50/50 CYL Cot/poly Fiber tracer 0.001%",
     "50% CYCLO® Recycled Cotton  50% ECOVERO™ Viscose":"50/50 ECOVERO™ Viscose/Cyl Cot",
     "50% ECOVERO™ Viscose 50% CYCLO® Recycled Cotton  ":"50/50 ECOVERO™ Viscose/Cyl Cot",
     "50% CYCLO® Recycled Cotton   50% Liva Reviva™ Viscose":"50/50 Liva Reviva™ Viscose/Cyl Cot",
@@ -382,7 +386,7 @@ def explode_double_yarn(df: pd.DataFrame) -> pd.DataFrame:
 def calculate_hours(order, machines):
     """
     Returns (estimated_hours, error) based on LINE_CONFIG & machine table.
-    For 500–2000 kg we choose the faster of Lines 4–5; otherwise faster of Lines 1–3.
+    For 500-2000 kg we choose the faster of Lines 4–5; otherwise faster of Lines 1–3.
     """
     try:
         count = normalize_count(order["Yarn Count"])
